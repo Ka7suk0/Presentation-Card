@@ -30,6 +30,7 @@
       icon: 'mail'
     }
   ];
+  const profileImage = `${import.meta.env.BASE_URL}profile.jpg`;
 </script>
 
 <svelte:head>
@@ -40,9 +41,9 @@
   <article class="profile-card">
     <header class="profile-header">
       <img
-              class="avatar"
-              src={`${import.meta.env.BASE_URL}profile.jpg`}
-              alt=""
+        class="avatar"
+        src={profileImage}
+        alt=""
       />
 
       <h1>{name}</h1>
