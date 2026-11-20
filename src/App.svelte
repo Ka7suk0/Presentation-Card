@@ -41,7 +41,7 @@
     <header class="profile-header">
       <img
               class="avatar"
-              src="/profile.jpg"
+              src={`${import.meta.env.BASE_URL}profile.jpg`}
               alt=""
       />
 
